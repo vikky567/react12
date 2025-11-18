@@ -3,7 +3,7 @@ import React, { useState} from 'react'
 function A() {
     const [count,setCount] = useState(0);
     if(count==4){
-        throw new Error("Count is invalid");
+        throw new Error("Count is ");
     }
   return (
     <div>
