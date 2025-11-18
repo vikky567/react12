@@ -12,13 +12,13 @@ function B() {
   return (
     <div>
        {products && products.map((p,i)=>{
-        return <>
+        return (<>
         <p>
             {p.id} {p.title}
         </p>
         <img src={p.image} alt='' />
         </>
-       })}
+       )})}
     </div>
   )
 }
